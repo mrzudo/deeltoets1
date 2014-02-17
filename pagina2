@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+		<head>
+			<title>opdracht 1</title>
+			<meta charset="utf-8"/>
+			<meta name="description" content="Opdracht 2"/>
+			<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+			<meta name="keywords" content="Opdarcht 1, Frontend, HvA"/>
+		</head>
+
+		<body>
+
+		
+			
+			<nav> 
+				<header> 
+				</header>
+			</nav>
+			
+			<section>
+
+				<article>
+						<h1>Aanmelden</h1>
+                        <p>Bent u geinteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+                        Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+                        <i>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</i>
+                        <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+                        Voor vragen of opmerkingen kunt u contact [link: contact] met ons op.</p>
+				<form>
+				    <fieldset>
+				    	<legend>Contactgegevens</legend>
+				    	
+				    	<label for="name">Naam</label>
+				    	<input type="text" placeholder="Voor en achternaam"id="name"/>
+				    	
+				    	<label for="email">E-mail</label>
+				    	<input type="text" id="email"/>
+				    	
+				    	<label for="street">Straat</label>
+				    	<input type="text" id="street"/>
+				    	
+				    	<label for="number">Huisnummer</label>
+				    	<input type="text" id="number"/>
+				    	
+				    	<label for="zip">Postcode</label>
+				    	<input type="text" id="zip"/>
+				    	
+				    	<label for="country">Land</label>
+				    	<input type="text" id="country"/>
+				    	
+				    	<label for="tel">Telefoon</label>
+				    	<input type="text" id="tel"/>
+				    </fieldset>
+				    
+				    <fieldset>
+				    	<legend>Voorkeuren</legend>
+				    	
+				    	<label for="color">Lievelingskleur</label>
+				    	<input type="color" id="color"/>
+				    	
+				    	<label for="month">Leukste maand</label>
+				    	<select id="month">
+				    	    <option>januari</option>
+				    	    <option>februari</option>
+				    	    <option>maart</option>
+				    	    <option>april</option>
+				    	    <option>mei</option>
+				    	    <option>juni</option>
+				    	    <option>juli</option>
+				    	    <option>augustus</option>
+				    	    <option>september</option>
+				    	    <option>oktober</option>
+				    	    <option>november</option>
+				    	    <option>december</option>
+				    	</select>
+				    	
+				    	<label for="grade">Hoe goed is dit ongeveer? (1 t/m 10)</label>
+				    	<input type="text" id="grade"/>
+				    </fieldset>
+				</form>
+	<table border="1" style="width:550px">
+			<tr>
+			  <td><h2>Project</h2></td>
+			  <td><h2>Stage</h2></td> 
+			</tr>
+			<tr>
+			  <td>
+			  	<ol>
+					<li>Titel</li>
+					<li>Opdrachtsomschrijving</li>
+					<li>Doelgroepsomschrijving</li>
+					<li>Doelstelling/ Intentie van het project</li>
+					<li>Looptijd</li>
+					<li>Deadline</li>
+				</ol>
+		</td>
+		  <td>
+		  Geschikt voor
+		  	<ol>
+				<li>tweedejaars studenten </li>
+				<li>afstudeer studenten</li>
+				<li>onbekend</li>
+			</ol>
+		  
+		  </td> 
+		  
+		</tr>
+			<td>
+			Geschikt voor
+			<ol>
+				<li>eerstejaars studenten </li>
+				<li>tweedejaars studenten</li>
+				<li>derdejaars studenten</li>
+				<li>afstudeer studenten</li>
+				<li>onbekend</li>
+			</ol>
+			</td>
+			
+			<td>
+				<ol>
+				<li>Hoe lang is de stage? </li>
+					<ul>
+						<li>10 weken</li>
+						<li>20 weken</li>
+					</ul>
+				<li>Begin datum</li>
+			</ol>
+			</td>
+		<tr>
+			<td></td>
+			<td>
+				<ol>
+					Beschrijving werkzaamheden:
+					<li>Beschrijving stagewerkzaamheden</li>
+				</ol>
+			</td>
+		</tr>
+		</table>
+						
+				</article>
+		
+
+
+			</section>
+
+			<aside>
+
+			</aside>
+
+				<footer>
+
+				</footer>
+		</body>
+</html>
+
