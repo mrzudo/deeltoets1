@@ -79,7 +79,7 @@
                         <input type="text" id="grade"/>
                     </fieldset>
                 </form>
-    <table border="1" style="width:550px">
+    <table border="1">
             <tr>
               <td><h2>Project</h2></td>
               <td><h2>Stage</h2></td> 
@@ -118,44 +118,90 @@
           
         </tr>
             <td>
-        
-                <label for="student">Geschikt voor</label>
-                        <select id="student">
-                            <option>eerstejaars studenten</option>
-                            <option>tweedejaars studenten</option>
-                            <option>derdejaars studenten</option>
-                            <option>afstudeer studenten</option>
-                            <option>onbekend</option>
-                         </select>
+                <form>
+                    <fieldset>
+                        <label for="student">Geschikt voor</label>
+                                <select id="student">
+                                    <option>eerstejaars studenten</option>
+                                    <option>tweedejaars studenten</option>
+                                    <option>derdejaars studenten</option>
+                                    <option>afstudeer studenten</option>
+                                    <option>onbekend</option>
+                                 </select>
+                   </fieldset>
+                </form>
             </td>
             
             <td>
-                <ol>
-                    <li>Hoe lang is de stage? 
-                        
-                          <select id="timer">
-                            <option>10 weken</option>
-                            <option>20 weken</option>
-                          
-                         </select>
-                        
-                    <li><label for="date">Begin datum</label>
-                            <input type="date" id="date"/></li>
-                </ol>
+                <form>
+                    <fieldset>
+                            <ol>
+                                <li>Hoe lang is de stage? 
+                                    
+                                      <select id="timer">
+                                        <option>10 weken</option>
+                                        <option>20 weken</option>
+                                      
+                                     </select>
+                                    
+                                <li><label for="date">Begin datum</label>
+                                        <input type="date" id="date"/></li>
+                            </ol>
+                    </fieldset>        
+                </form>
             </td>
         <tr>
             <td></td>
             <td>
-                <ol>
-                    Beschrijving werkzaamheden:
-                    <li><label for="work"></label>
-                            <input type="text" id="work"/></li>
-                </ol>
+                <fieldset>
+                    <ol>
+                        <li>Beschrijving werkzaamheden:
+                            <label for="work"></label>
+                            <input type="text" id="work"/>
+                        </li>
+                    </ol>
+                </fieldset>
             </td>
         </tr>
-        </table>
+    </table>
                  
                 </article>
+    <table border="1">
+            <tr>
+              <td><h2>Project</h2></td>
+              <td><h2>Stage</h2></td> 
+            </tr>
+        <tr>
+             
+          <td>
+        
+          </td> 
+         <td>
+                <form>
+                    <fieldset>
+                        <p>Beschrijving stagebedrijf</p>
+                        <ol>
+                            <li><label for="company">Bedrijfsnaam</label>
+                            <input type="text" id="company"/></li>
+                            <li><label for="adresser">Adres</label>
+                            <input type="text" id="adresser"/></li>
+                            <li><label for="postal">Postcode</label>
+                            <input type="text" id="postal"/></li>
+                            <li><label for="place">Plaats</label>
+                            <input type="text" id="place"/></li>
+                            <li><label for="sector">Sector</label>
+                            <input type="text" id="sector"/></li>
+                            <li><label for="core">Core Business</label>
+                            <input type="text" id="core"/></li>
+                        </ol>
+                    </fieldset>
+                </form>    
+                </td>  
+        </tr>
+
+
+        
+    </table>
         
 
 
