@@ -54,24 +54,35 @@
                     </fieldset>
                     
                     <fieldset>
-                        <legend>Aanmelden</legend>
+                        <legend>Voorkeuren</legend>
                         
+                        <label for="color">Lievelingskleur</label>
+                        <input type="color" id="color"/>
                         
-                        <label for="month">Ik wil mij aanmelden voor:</label>
+                        <label for="month">Leukste maand</label>
                         <select id="month">
-                            <option>Voor een project</option>
-                            <option>Als stagebedrijf</option>
+                            <option>januari</option>
+                            <option>februari</option>
+                            <option>maart</option>
+                            <option>april</option>
+                            <option>mei</option>
+                            <option>juni</option>
+                            <option>juli</option>
+                            <option>augustus</option>
+                            <option>september</option>
+                            <option>oktober</option>
+                            <option>november</option>
+                            <option>december</option>
                         </select>
                         
+                        <label for="grade">Hoe goed is dit ongeveer? (1 t/m 10)</label>
+                        <input type="text" id="grade"/>
                     </fieldset>
                 </form>
-    <table border="1">
-            <tr>
-              <td><h2>Project</h2></td>
-              <td><h2>Stage</h2></td> 
-            </tr>
-            <tr>
-              <td>
+        <fieldset>
+            <legend>Ik wil mij aanmelden voor:</legend>
+          <details>
+            <summary>Voor een project</summary>
                 <form>
                     <fieldset>
                         <ol>
@@ -89,25 +100,8 @@
                             <input type="date" id="deadline"/></li>
                         </ol>
                     </fieldset>
-                </form>    
-                </td>
-          <td>
-            <fieldset>
-                <label for="student">Geschikt voor</label>
-                        <select id="forwho">
-                            <option>tweedejaars studenten</option>
-                            <option>afstudeer studenten</option>
-                            <option>onbekend</option>
-                         </select>
-            </fieldset>
-          </td> 
-          
-        </tr>
-        <tr>
-            <td>
-                <form>
-                    <fieldset>
-                        <label for="student">Geschikt voor</label>
+                    <fieldset>     
+                        <label for="student">Geschikt voor:</label>
                                 <select id="student">
                                     <option>eerstejaars studenten</option>
                                     <option>tweedejaars studenten</option>
@@ -115,13 +109,24 @@
                                     <option>afstudeer studenten</option>
                                     <option>onbekend</option>
                                  </select>
-                   </fieldset>
-                </form>
-            </td>
-            
-            <td>
-                <form>
+                    
+                    </fieldset>
+                </form>    
+        </details>
+
+
+        <details>
+             <summary>Als stagebedrijf</summary>
+            <form>
                     <fieldset>
+                        <label for="student">Geschikt voor</label>
+                                <select id="forwho">
+                                    <option>tweedejaars studenten</option>
+                                    <option>afstudeer studenten</option>
+                                    <option>onbekend</option>
+                                 </select>
+                    </fieldset>
+                     <fieldset>
                             <ol>
                                 <li>Hoe lang is de stage? 
                                     
@@ -134,39 +139,17 @@
                                 <li><label for="date">Begin datum</label>
                                         <input type="date" id="date"/></li>
                             </ol>
-                    </fieldset>        
-                </form>
-            </td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>
-                <fieldset>
-                    <ol>
-                        <li>Beschrijving werkzaamheden:
-                            <label for="work"></label>
-                            <input type="text" id="work"/>
-                        </li>
-                    </ol>
-                </fieldset>
-            </td>
-        </tr>
-    </table>
-                 
-                </article>
-    <table border="1">
-            <tr>
-              <td><h2>Project</h2></td>
-              <td><h2>Stage</h2></td> 
-            </tr>
-        <tr>
-             
-          <td>
-        
-          </td> 
-         <td>
-                <form>
+                    </fieldset>   
+
                     <fieldset>
+                        <ol>
+                            <li>Beschrijving werkzaamheden:
+                                <label for="work"></label>
+                                <input type="text" id="work"/>
+                            </li>
+                        </ol>
+                    </fieldset>
+                     <fieldset>
                         <p>Beschrijving stagebedrijf</p>
                         <ol>
                             <li><label for="company">Bedrijfsnaam</label>
@@ -183,14 +166,25 @@
                             <input type="text" id="core"/></li>
                         </ol>
                     </fieldset>
-                </form>    
-                </td>  
-        </tr>
+            </form>
+        </details>
+     </fieldset>   
+      
+     
+
+         
+         
+
+                 
+                </article>
+         
+            
+  
+
 
 
         
-    </table>
-    <input type="submit">
+
         
 
 
