@@ -54,29 +54,15 @@
                     </fieldset>
                     
                     <fieldset>
-                        <legend>Voorkeuren</legend>
+                        <legend>Aanmelden</legend>
                         
-                        <label for="color">Lievelingskleur</label>
-                        <input type="color" id="color"/>
                         
-                        <label for="month">Leukste maand</label>
+                        <label for="month">Ik wil mij aanmelden voor:</label>
                         <select id="month">
-                            <option>januari</option>
-                            <option>februari</option>
-                            <option>maart</option>
-                            <option>april</option>
-                            <option>mei</option>
-                            <option>juni</option>
-                            <option>juli</option>
-                            <option>augustus</option>
-                            <option>september</option>
-                            <option>oktober</option>
-                            <option>november</option>
-                            <option>december</option>
+                            <option>Voor een project</option>
+                            <option>Als stagebedrijf</option>
                         </select>
                         
-                        <label for="grade">Hoe goed is dit ongeveer? (1 t/m 10)</label>
-                        <input type="text" id="grade"/>
                     </fieldset>
                 </form>
     <table border="1">
@@ -117,6 +103,7 @@
           </td> 
           
         </tr>
+        <tr>
             <td>
                 <form>
                     <fieldset>
@@ -150,6 +137,7 @@
                     </fieldset>        
                 </form>
             </td>
+        </tr>
         <tr>
             <td></td>
             <td>
@@ -202,6 +190,7 @@
 
         
     </table>
+    <input type="submit">
         
 
 
